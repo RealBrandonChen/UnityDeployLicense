@@ -14,7 +14,7 @@ public class RegistrationKey : MonoBehaviour
     {
         // We recommend to review https://help.cryptolens.io/getting-started/unity for common errors and tips.
         var RSAPubKey = "<RSAKeyValue><Modulus>******</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>";
-        var auth = "WyIyMjcxMjQ1IiwiNjV6cWN0VWZ3dXJkQXhUQml2UEt4NUNVY3dIdit4SjkzUXdob0JlbSJd";
+        var auth = "WyIyMjcxMjQ1IiwiNjV6cWN0VW******QXhUQml2UEt4NUNVY3dIdit4SjkzUXdob0JlbSJd";
         Helpers.WindowsOnly = true;
         //var machineCode = Helpers.GetMachineCode();
         var machineCode = "default";
