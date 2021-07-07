@@ -17,7 +17,7 @@
     
     #### 2. Or you can download the [package](https://github.com/Cryptolens/cryptolens-dotnet/releases) directly, copy and paste it into the Unity assets. The files we need are `Cryptolens.Licensing.CrossPlatform.dll` and `Newtonsoft.Json`.
 
-  - ### Registration key script 
+  - ### [Registration key script](docs/CONTRIBUTING.md)
   - ### verification key and auth token set up
   
 - ### Web API Logs Monitoring
