@@ -16,8 +16,8 @@ public class RegistrationKey : MonoBehaviour
         var RSAPubKey = "<RSAKeyValue><Modulus>******</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>";
         var auth = "WyIyMjcxMjQ1IiwiNjV6cWN0VW******QXhUQml2UEt4NUNVY3dIdit4SjkzUXdob0JlbSJd";
         Helpers.WindowsOnly = true;
-        //var machineCode = Helpers.GetMachineCode();
-        var machineCode = "default";
+        var machineCode = Helpers.GetMachineCode();
+        //var machineCode = "default";
         var result = Key.Activate(token: auth, productId: 11605, key: "CTRXZ-AQECF-VBSWR-PXNFF", machineCode: machineCode);
     
         if (result == null || result.Result == ResultType.Error)
