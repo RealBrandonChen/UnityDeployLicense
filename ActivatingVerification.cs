@@ -15,10 +15,8 @@ public class ActivatingVerification : MonoBehaviour
     private void Start()
     {
         // We recommend to review https://help.cryptolens.io/getting-started/unity for common errors and tips.
-        var RSAPubKey = "<RSAKeyValue><Modulus>uJA3GkwXifEWyyDXqr2fzQSPkbiH43y/xpxyNCapSHEQ6WHSE5gOc5r54sLtRCg7xTqZnwdJYb9wccYTVg3IqBk94bDfrMPLo6tM1O8MXAqaEYIUGfgExTPMP6ieFqAXSRdBuzaGm0dt2UKZljVtUjmFvsKqNPqSPAzNeRG3L3k1ZZaijCt6ors1yzye2Z09mSMITzqU4vYYI2Wib7N/BegNho54rC6oVNXmBILZXvL9882CMsGbhlMJhTwPFoFh7nJSolnf8Z3HXPdQh6k3H1US9TiPJwhW+9Gvq/jJnkkk7IGqqPB47t2k8873i5O2h3QstedeTbkn4o8Bzqlm5Q==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>";
-        var auth = "WyIzODM4NzA1IiwiWlVOZHBpVm5LWE5MMWtvTUJQdTdzR242OUs4VFlIalVFR2h4NFRnNiJd";
-        //var machineCode = new DeviceIdBuilder().AddMachineName().ToString();
-        //var machineCode = Helpers.GetMachineCodePI();
+        var RSAPubKey = "<RSAKeyValue><Modulus>**********************************************==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue>";
+        var auth = "Your auth token here";
         var machineCode = SystemInfo.deviceName;
         var result = Key.Activate(token: auth, productId: 12304, key: "GPGGB-YOMXX-YZFMI-ZNDOR", machineCode: machineCode);
 
